@@ -1,6 +1,6 @@
 <p align="center">
   <kbd>
-    <img width="150" src="" alt="RedWire" />
+    <img width="150" src="https://red-wire.org/assets/img/redwire-mark.png" alt="RedWire" />
   </kbd>
 </p>
 
