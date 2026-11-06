@@ -13,6 +13,7 @@
   <a href="https://red-wire.org/docs"><img height="30" src="https://img.shields.io/badge/Docs-E5485B?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation" /></a>
 </p>
 
+**Website:** https://red-wire.org  
 **Documentation:** https://red-wire.org/docs
 
 ### About
@@ -30,29 +31,30 @@ maintained here.
 
 ### Services
 
-#### Flagship
+#### Browsing
 
-- [Infrared](https://infrared.earth) â€” the hosted proxy. Games, apps, tab cloaking and ad-free deployment.
+- [RedProxy](https://redproxy.org) — the hosted browsing proxy. Ultraviolet rewriting, Epoxy over WISP and no account.
+- [Redline](https://red-wire.org/browse/) — the reference self-hosted stack: shell, worker, BareMux, Epoxy/WISP and a Node relay.
 
-#### Self-hosted
+#### UBG
 
-- [Redline](https://red-wire.org/browse/) â€” reference Ultraviolet + BareMux + Epoxy/WISP deployment.
+- [Infrared](https://infrared.earth) — the UBG site. An experimental proxy with games, apps, tab cloaking and ad-free deployment.
 
 #### Games
 
-- [RedArcade](https://red-wire.org/play/) â€” four original browser games. No accounts, ads or installs.
+- [RedArcade](https://red-wire.org/play/) — four original browser games. No accounts, ads or installs.
 
 #### WebOS
 
-- [RedOS](https://github.com/Red60sapphire/redos) â€” a desktop in a tab, with a terminal and Linux emulation.
+- [RedOS](https://github.com/Red60sapphire/redos) — a desktop in a tab, with a terminal and Linux emulation. In development.
 
 #### Infrastructure
 
-- [Signal](https://red-wire.org/services/signal/) â€” manifest-driven link hub
-- [RedKit](https://red-wire.org/docs/#redkit) â€” client bootstrap for adding a proxy to any site
-- [RedRelay](https://red-wire.org/company/#roadmap) â€” hardened WISP relay (planned)
-- [Mirror](https://red-wire.org/company/#roadmap) â€” fleet manager for Redline instances (planned)
-- [Beacon](https://red-wire.org/status/) â€” browser-side reachability checks
+- [Signal](https://red-wire.org/services/signal/) — manifest-driven link hub
+- [RedKit](https://red-wire.org/docs/#redkit) — client bootstrap for adding a proxy to any site
+- [RedRelay](https://red-wire.org/company/#roadmap) — hardened WISP relay (planned)
+- [Mirror](https://red-wire.org/company/#roadmap) — fleet manager for Redline instances (planned)
+- [Beacon](https://red-wire.org/status/) — browser-side reachability checks
 
 ### Projects
 
@@ -63,35 +65,40 @@ maintained here.
 
 ##### Proxies
 
-- [Redline](https://github.com/RRedwire/red-wire/tree/main/services/redline) â€” Ultraviolet, BareMux and Epoxy over a WISP relay
-- [Infrared](https://github.com/OGsWorkshop/Infrared) â€” hosted flagship proxy
+- [RedProxy](https://redproxy.org) — hosted browsing proxy
+- [Redline](https://github.com/RRedwire/red-wire/tree/main/services/redline) — reference Ultraviolet + BareMux + Epoxy/WISP deployment
+- [Infrared](https://github.com/OGsWorkshop/Infrared) — the UBG site
 
 ##### Services
 
-- [RedArcade](https://red-wire.org/play/) â€” static games portal and four original games
-- [RedOS](https://github.com/Red60sapphire/redos) â€” browser desktop
-- [Signal](https://github.com/RRedwire/red-wire/tree/main/services/signal) â€” manifest-driven link hub
-- [Beacon](https://red-wire.org/status/) â€” client-side status checks
+- [RedArcade](https://red-wire.org/play/) — static games portal and four original games
+- [RedOS](https://github.com/Red60sapphire/redos) — browser desktop
+- [Signal](https://github.com/RRedwire/red-wire/tree/main/services/signal) — manifest-driven link hub
+- [Beacon](https://red-wire.org/status/) — client-side status checks
 
 ##### Tooling
 
-- [RedKit](https://github.com/RRedwire/red-wire/tree/main/packages/redkit) â€” proxy client bootstrap
+- [RedKit](https://github.com/RRedwire/red-wire/tree/main/packages/redkit) — proxy client bootstrap
 
 #### Planned
 
-- [RedRelay](https://red-wire.org/company/#roadmap) â€” hardened WISP relay
-- [Mirror](https://red-wire.org/company/#roadmap) â€” multi-instance fleet manager
+- [RedRelay](https://red-wire.org/company/#roadmap) — hardened WISP relay
+- [Mirror](https://red-wire.org/company/#roadmap) — multi-instance fleet manager
 
 #### Upstream
 
-- [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) â€” service-worker proxy core
-- [BareMux](https://github.com/MercuryWorkshop/bare-mux) â€” transport abstraction
-- [Epoxy](https://github.com/MercuryWorkshop/epoxy-tls) â€” encrypted transport
-- [WISP](https://github.com/MercuryWorkshop/wisp-protocol) â€” WebSocket stream protocol
+- [Ultraviolet](https://github.com/titaniumnetwork-dev/Ultraviolet) — service-worker proxy core
+- [BareMux](https://github.com/MercuryWorkshop/bare-mux) — transport abstraction
+- [Epoxy](https://github.com/MercuryWorkshop/epoxy-tls) — encrypted transport
+- [WISP](https://github.com/MercuryWorkshop/wisp-protocol) — WebSocket stream protocol
 
 </details>
 
-### Workshop
+### Partners
 
-RedWire is built with [OGsWorkshop](https://github.com/OGsWorkshop). Source for every service is public
-under AGPL-3.0 unless a repository says otherwise.
+RedWire is developed in partnership with [OGsWorkshop](https://github.com/OGsWorkshop), the studio behind
+Infrared and RedOS.
+
+### License
+
+AGPL-3.0 unless a repository says otherwise. Upstream projects retain their own licenses.
